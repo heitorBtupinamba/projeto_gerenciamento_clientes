@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+header {
+    background-color: #005f6a;
+    padding: 1rem 0;
+    color: white;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+form label {
+    font-size: 1rem;
+    color: #333;
+}
+
+form input, form select, form button {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #005f6a;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #004c56;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+    border: 1px solid #ddd;
+}
+
+table th, table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f4f4f4;
+}
+
+table td a {
+    color: #005f6a;
+    text-decoration: none;
+}
+
+table td a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    background-color: #005f6a;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-container h1 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #333;
+}
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-login label {
+    font-size: 1rem;
+    text-align: center;
+    color: #333;
+}
+
+.form-login input {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.form-login button {
+    padding: 1rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #005f6a;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.form-login button:hover {
+    background-color: #004c56;
+}
+
+form p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+form p a {
+    color: #005f6a;
+    text-decoration: none;
+}
+
+form p a:hover {
+    text-decoration: underline;
+}
+
+#nomesistema{
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+#welcome,#welcome2{
+    text-align: center;
+}
+
+#headerlogin{
+    height: 70px;
+}
+
+#iconcliente{
+    height: 120px;
+    width: 154px;
+    position: relative;
+    left: 220px
+}
+
+#clientered{
+    position: relative;
+    top: 20px;
+    left: 232px;
+    padding: 1rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #005f6a;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#iconrelatorio{
+    height: 120px;
+    width: 154px;
+    position: relative;
+    left: 420px
+}
+
+#relatoriored{
+    position: relative;
+    top: 20px;
+    left: 466px;
+    padding: 1rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #005f6a;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#icon_usuario{
+    height: 120px;
+    width: 145px;
+    position: relative;
+    left: 630px
+}
+
+#usuariored{
+    position: relative;
+    top: 20px;
+    left: 730px;
+    padding: 1rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #005f6a;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
